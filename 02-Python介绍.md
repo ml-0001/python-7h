@@ -23,7 +23,7 @@ Python 是一种`解释型语言` , 由`解释器程序` 来运行,  这类能�
 
 #### 代码编辑器
 
-代码是知识一些文本, 所以用任何一个文本编辑器都可以编写代码, 不过有些编辑工具可以专门帮你提示代码, 检查代码的语法, 这样可以提升编写效率 , 在Windows下常用的有 `Notepad++`, `Visual Studio  Code` ,`Edit Plus` 等 .
+代码其实只是一些文本, 所以用任何一个文本编辑器都可以编写代码, 不过有些编辑工具可以专门帮你提示代码, 检查代码的语法, 这样可以提升编写效率 , 在Windows下常用的有 `Notepad++`, `Visual Studio  Code` ,`Edit Plus` 等 .
 
 我们选择`Visual Studio  Code` 简称`VS Code`.
 
@@ -52,10 +52,10 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 
 下载后运行 , 注意勾选下方的ADD TO PATH. (如果没勾选PATH的话,得自己配置PATH环境变量)
 
-> 安装Python 3.7.1 时,如果没有勾选"ADD TO PATH", 那么后面的命令python hello.py不会成功, 回提示python程序找不到，那么你可以自己修改系统环境变量,将Python 3.7.1 的安装目录添加到 PATH中, 具体操作可以尝试搜索"PYTHON WINDOWS 添加PATH环境变量".
-
-
 ![](02/img/install1.png)
+
+> 安装Python 3.7.1 时,如果没有勾选"ADD TO PATH", 那么后面的命令python hello.py 不会成功, 会提示python程序找不到，那么你可以自己修改系统环境变量,将Python 3.7.1 的安装目录添加到 PATH中, 具体操作可以尝试搜索"PYTHON WINDOWS 添加PATH环境变量".
+
 
 #### 安装完成后测试
 
@@ -101,6 +101,8 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 ![](02/img/structure.png "Python 代码文件结构")
 
 ### hello.py 代码示例
+现在我们尝试编写第一个Python程序,他的功能是在屏幕上输出一段文字.
+
 打开`VS Code`软件, 点击`File`->`New File` 创建一个文件, 输入以下代码, 然后将文件保存到`C:\py7h\hello.py `。
 
 ```python
@@ -186,7 +188,7 @@ Python 是一门通用编程语言, 意思是理论上Python可以干任何事�
 
 ## 总结
 
-本文首先简单介绍了Python 语言，然后介绍了Python编程环境的搭建,然后以两个小代码座位示例展示了Python的代码外观,最后简单介绍了下Python目前在相关领域的应用情况。 下一课我们将具体学习一个Python 程序的概念。
+本文首先简单介绍了Python 语言，然后介绍了Python编程环境的搭建,然后以两个小代码座位示例展示了Python的代码外观,最后简单介绍了下Python目前在相关领域的应用情况 。下一课我们将具体学习一个Python 程序的概念。
 本课主要有以下概念:
 * 运行环境
 * 编程环境
