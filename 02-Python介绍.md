@@ -5,9 +5,9 @@
 
 上次我们提到计算机世界里有成百上千种语言 , 每种语言都在特定的领域流行 , 但是从使用人数上讲 , Python 语言目前排名TOP10 (2018年11月) .
 
-Python 的爸爸是吉多·范罗苏姆 。1989年的圣诞节期间，吉多·范罗苏姆为了在阿姆斯特丹打发时间，决心开发一个新的`脚本解释程序`玩儿玩儿 , 在这个解释器上可执行语言就叫Python 。 Python（英国发音：/ˈpaɪθən/ 美国发音：/ˈpaɪθɑːn/），作为一种解释型语言，Python的设计哲学强调代码的可读性和简洁的语法。相比于C++或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。
+Python 的爸爸是吉多·范罗苏姆 。1989年的圣诞节期间，吉多·范罗苏姆为了在阿姆斯特丹打发时间，决心开发一个新的`脚本解释程序`玩儿玩儿 , 在他这个解释器上可执行语言就叫Python 。 
 
-
+Python（英国发音：/ˈpaɪθən/ 美国发音：/ˈpaɪθɑːn/），作为一种解释型语言，Python的设计哲学强调代码的可读性和简洁的语法。相比于C++或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。
 
 
 ## 编程环境安装
@@ -46,7 +46,7 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 
 在浏览器中进入: https://www.python.org/downloads/ , 选择download 选择Windows 此时右边会有3.7.1 的现在按钮 .
 
-![](02/img/download.img)
+![](02/img/download.png)
 
 [Python3.7.1 也可以直接在直接下载](https://www.python.org/ftp/python/3.7.1/python-3.7.1-amd64.exe)
 
@@ -55,19 +55,19 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 > 安装Python 3.7.1 时,如果没有勾选"ADD TO PATH", 那么后面的命令python hello.py不会成功, 回提示python程序找不到，那么你可以自己修改系统环境变量,将Python 3.7.1 的安装目录添加到 PATH中, 具体操作可以尝试搜索"PYTHON WINDOWS 添加PATH环境变量".
 
 
-![](02/img/install1.img)
+![](02/img/install1.png)
 
 #### 安装完成后测试
 
-点击Windows `开始`安妞 ![](02/img/start.img) , 弹出搜索框, 输入`cmd`然后按`回车键`, 会打开一个`命令提示行窗口` 。
+点击Windows `开始`安妞 ![](02/img/start.png) , 弹出搜索框, 输入`cmd`然后按`回车键`, 会打开一个`命令提示行窗口` 。
 
 
 
-![](02/img/cmd.img "开始启动CMD")
+![](02/img/cmd.png "开始启动CMD")
 
 
 
-![](02/img/cmd.img "命令提示行窗口")
+![](02/img/cmd.png "命令提示行窗口")
 
 
 在窗口中输入`python -V` 应该看到显示 Python 3.7.1 的字样, 这样就表示您的Python运行环境已经安装完成 。
@@ -76,7 +76,7 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 #### 安装VS Code
 打开VS Code 官网:https://code.visualstudio.com , 点击下载, 然后一直点击下一步安装完成 .
 
-![](02/img/vscode.img "下载VSCode")
+![](02/img/vscode.png "下载VSCode")
 
 
 
@@ -102,7 +102,7 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 5. 类或者函数定义 [可选]
 6. 程序指令 [必选]
 
-![](02/img/structure.img "Python 代码文件结构")
+![](02/img/structure.png "Python 代码文件结构")
 
 ### hello.py 代码示例
 打开`VS Code`软件, 点击`File`->`New File` 创建一个文件, 输入以下代码, 然后将文件保存到`C:\py7h\hello.py `。
@@ -125,7 +125,7 @@ print("Hello,World!") #print是Python解释器已经提供的基础功能,支持
 > 还有一种打开命令行窗口的方法是, 就像之前验证Python环境安装成功一样, 点击Windows`开始`,输入cmd回车打开命令行窗口,不过这时默认的目录不在你的代码目录,那么就需要输入`cd C:\py7h` 命令切换到C:\py7h .
 
 
-![](02/img/start_cmd.img "在代码目录启动命令行")
+![](02/img/start_cmd.png "在代码目录启动命令行")
 
 
 如果你在黑框中看到`Hello,World!`字样,那么！
