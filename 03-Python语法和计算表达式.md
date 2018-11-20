@@ -178,8 +178,10 @@ if cond_var:
 ### 代码规范
 
 Python本身语法比较简单,并没有规定太多. 但是写代码就像写文章, 如果遵循一定大家默认守则, 可以让别人阅读的更容易, 自己写完后再阅读也能快速回忆起当时编写的思路。
-其中[PEP8,Python社区的语言规范建议/提案] 规范建议了Python代码中的元素,如变量,函数,对齐,命名的规范, 这样比较有Python的范儿 . https://pypi.org/project/pep8/
-Google 公司(Python语言的爸爸也在Google工作)也推出了自己的Python代码规范建议:https://google.github.io/styleguide/pyguide.html
+
+其中[PEP8,Python社区的语言规范建议/提案] 规范建议了Python代码中的元素,如变量,函数,对齐,命名的规范, 这样比较有Python的范儿. https://pypi.org/project/pep8/
+
+Google 公司(Python语言的爸爸就在Google工作)也推出了自己的Python代码规范建议:https://google.github.io/styleguide/pyguide.html
 
 
 ## 求值表达式
