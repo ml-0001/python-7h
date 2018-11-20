@@ -26,7 +26,7 @@
 针对用户群为非计算机专业, 先慢后快,大量生动形象生活举例,网络用户。
 ### 编程扫盲部分
 1.  理解计算机编程（计算机和编程原理）
-2.  Python介绍 （环境安装,脚本解释原理.剧本）
+2.  Python 编程环境准备 （环境安装,脚本解释原理）
 
 ------------
 
@@ -50,9 +50,22 @@
 ------------
 ### 应用实践部分
 
-13.  数据分析（统计当前股市简单情绪,复杂任务分解.爬虫,分词）
-14.  统计推断和画图展示程序 (matplot,pandas,numpy数据可视化)
-15.  程序调试
+13.  股民情绪数据分析设计（统计当前股市简单情绪,复杂任务分解.爬虫,分词）
+14.  股民情绪统计推断和画图展示程序 (matplot,pandas,numpy数据可视化)
+15.  股民情绪分析程序的调试
 
+
+### 附录与进阶
+
+这个教程开发的目标是帮助没有编程基础的同学(非计算机专业,未受过系统编程训练),比较快速的入门Python编程,
+所以主要是注重实践和应用, 当随着本课程学习结束后, 达到可阅读和编写简单程序的水平, 对于复杂的Python程序, 也可以学会如何查找文档和阅读分析,最重要的是 , 本课程带你入门之后,你再去使用任何其他教程或者阅读进阶书籍,会如探囊取物般简单。
+另外, 如果愿意进一步学习Python 中的高级特性, 以及Python的开发模式, 深入到具体的领域中应用, 还需要进一步阅读其他Python进阶水平(可关注后续课程)的书籍或者教程 。 以下是一些可用的资料 。
+
+[廖雪峰Python教程]: https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431611988455689d4c116b2c4ed6aec000776c00ed52000
+[Python 2.7 中文手册]: http://www.pythondoc.com/pythontutorial27/index.html
+[Python 3.7 官方英文手册]: https://docs.python.org/3.7/tutorial/index.html
+[Python 核心编程]: https://book.douban.com/subject/3112503/
+[Python 可视化执行]: http://pythontutor.com/visualize.html#mode=display
+[笨办法学习Python]: https://learnpythonthehardway.org/book/
 
 
