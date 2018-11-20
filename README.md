@@ -61,11 +61,18 @@
 所以主要是注重实践和应用, 当随着本课程学习结束后, 达到可阅读和编写简单程序的水平, 对于复杂的Python程序, 也可以学会如何查找文档和阅读分析,最重要的是 , 本课程带你入门之后,你再去使用任何其他教程或者阅读进阶书籍,会如探囊取物般简单。
 另外, 如果愿意进一步学习Python 中的高级特性, 以及Python的开发模式, 深入到具体的领域中应用, 还需要进一步阅读其他Python进阶水平(可关注后续课程)的书籍或者教程 。 以下是一些可用的资料 。
 
-[廖雪峰Python教程][1]:https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431611988455689d4c116b2c4ed6aec000776c00ed52000
-[Python 2.7 中文手册][2]: http://www.pythondoc.com/pythontutorial27/index.html
-[Python 3.7 官方英文手册][3]: https://docs.python.org/3.7/tutorial/index.html
-[Python 核心编程][4]: https://book.douban.com/subject/3112503/
-[Python 可视化执行][5]: http://pythontutor.com/visualize.html#mode=display
-[笨办法学习Python][6]: https://learnpythonthehardway.org/book/
+* [廖雪峰Python教程][1]
+* [Python 2.7 中文手册][2]
+* [Python 3.7 官方英文手册][3]
+* [Python 核心编程][4]
+* [Python 可视化执行][5]
+* [笨办法学习Python][6]
+
+[1]: https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431611988455689d4c116b2c4ed6aec000776c00ed52000
+[2]: http://www.pythondoc.com/pythontutorial27/index.html
+[3]: https://docs.python.org/3.7/tutorial/index.html
+[4]: https://book.douban.com/subject/3112503/
+[5]: http://pythontutor.com/visualize.html#mode=display
+[6]: https://learnpythonthehardway.org/book/
 
 
