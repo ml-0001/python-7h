@@ -46,24 +46,24 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 
 在浏览器中进入: https://www.python.org/downloads/ , 选择download 选择Windows 此时右边会有3.7.1 的现在按钮 .
 
-![](02/img/download.png)
+![](assets/02/img/download.png)
 
 [Python3.7.1 也可以直接在直接下载](https://www.python.org/ftp/python/3.7.1/python-3.7.1-amd64.exe)
 
 下载后运行 , 注意勾选下方的ADD TO PATH. (如果没勾选PATH的话,得自己配置PATH环境变量)
 
-![](02/img/install1.png)
+![](assets/02/img/install1.png)
 
 > 安装Python 3.7.1 时,如果没有勾选"ADD TO PATH", 那么后面的命令python hello.py 不会成功, 会提示python程序找不到，那么你可以自己修改系统环境变量,将Python 3.7.1 的安装目录添加到 PATH中, 具体操作可以尝试搜索"PYTHON WINDOWS 添加PATH环境变量".
 
 
 #### 安装完成后测试
 
-点击Windows `开始`安妞 ![](02/img/start.png) , 弹出搜索框, 输入`cmd`然后按`回车键`, 会打开一个`命令提示行窗口` 。
+点击Windows `开始`安妞 ![](assets/02/img/start.png) , 弹出搜索框, 输入`cmd`然后按`回车键`, 会打开一个`命令提示行窗口` 。
 
-![](02/img/cmd.png "开始启动CMD")
+![](assets/02/img/cmd.png "开始启动CMD")
 
-![](02/img/start_cmd.png "命令提示行窗口")
+![](assets/02/img/start_cmd.png "命令提示行窗口")
 
 
 在窗口中输入`python -V` 应该看到显示 Python 3.7.1 的字样, 这样就表示您的Python运行环境已经安装完成 。
@@ -72,7 +72,7 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 #### 安装VS Code
 打开VS Code 官网:https://code.visualstudio.com , 点击下载, 然后一直点击下一步安装完成 .
 
-![](02/img/vscode.png "下载VSCode")
+![](assets/02/img/vscode.png "下载VSCode")
 
 
 
@@ -98,7 +98,7 @@ Python 运行环境很简单, 但是我们实际开发一些程序时，可能�
 5. 类或者函数定义 *[可选]*
 6. 程序指令 **[必选]**
 
-![](02/img/structure.png "Python 代码文件结构")
+![](assets/02/img/structure.png "Python 代码文件结构")
 
 ### hello.py 代码示例
 现在我们尝试编写第一个Python程序,他的功能是在屏幕上输出一段文字.
@@ -123,7 +123,7 @@ print("Hello,World!") #print是Python解释器已经提供的基础功能,支持
 > 还有一种打开命令行窗口的方法是, 就像之前验证Python环境安装成功一样, 点击Windows`开始`,输入cmd回车打开命令行窗口,不过这时默认的目录不在你的代码目录,那么就需要输入`cd C:\py7h` 命令切换到C:\py7h .
 
 
-![](02/img/start_cmd.png "在代码目录启动命令行")
+![](assets/02/img/start_cmd.png "在代码目录启动命令行")
 
 
 如果你在黑框中看到`Hello,World!` 字样, 那么恭喜您 ！！！执行了第一行Python 程序 ! 成功开启了编程世界的大门 !
